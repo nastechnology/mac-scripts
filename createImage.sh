@@ -12,7 +12,7 @@ hdiutil create -srcfolder / /Volumes/${EXT}/${IMGNAME}.dmg
 
 sleep 10
 
-asr -imagescan /Volumes/${EXT}/${IMGNAME}.dmg
+asr imagescan --source /Volumes/${EXT}/${IMGNAME}.dmg
 
 sleep 10
 
