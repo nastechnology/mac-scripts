@@ -16,4 +16,4 @@ asr imagescan --source ${EXT}/${IMGNAME}.dmg
 
 sleep 10
 
-mv ${EXT}/${IMGNAME}.dmg ${EXT}/${IMGNAME}`date +%Y-%m-%d’.dmg
+mv ${EXT}/${IMGNAME}.dmg ${EXT}/${IMGNAME}_`date +%m%d%Y`.dmg
