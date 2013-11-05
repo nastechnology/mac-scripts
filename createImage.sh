@@ -8,12 +8,12 @@ echo "No arguments supplied"
   exit 1
 fi
 
-hdiutil create -srcfolder / /Volumes/${EXT}/${IMGNAME}.dmg
+hdiutil create -srcfolder /Volumes/Macintosh\ HD\ 1/ ${EXT}/${IMGNAME}.dmg
 
 sleep 10
 
-asr imagescan --source /Volumes/${EXT}/${IMGNAME}.dmg
+asr imagescan --source ${EXT}/${IMGNAME}.dmg
 
 sleep 10
 
-mv /Volumes/${EXT}/${IMGNAME}.dmg /Volumes/${EXT}/${IMGNAME}`date +%Y-%m-%d’.dmg
+mv ${EXT}/${IMGNAME}.dmg ${EXT}/${IMGNAME}`date +%Y-%m-%d’.dmg
