@@ -4,7 +4,7 @@ EXT=$1
 IMGNAME=$2
 
 if [ -z "$1" ]; then
-echo "No arguments supplied"
+  echo "No arguments supplied - Please provide an External Volume and Image name i.e. ./createImage.sh /Volumes/ExternalDrive MacbookTeacher"
   exit 1
 fi
 
