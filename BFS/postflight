@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/usr/sbin/installer -pkg /Volumes/BFS_Box-1.0/helperfiles/VirtualBox.pkg -target /Volumes/Macintosh\ HD
+/usr/bin/VBoxManage extpack install /Volumes/BFS_Box-1.0/helperfiles/Oracle_VM_VirtualBox_Extension_Pack-4.3.2-90405.vbox-extpack
+/usr/bin/VBoxManage import /Volumes/BFS_Box-1.0/helperfiles/BFS.ova
+

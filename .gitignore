@@ -1,0 +1,6 @@
+*.app
+.DS_STORE
+*.dmg
+*.ova
+*.pkg
+*.vbox-extpack
