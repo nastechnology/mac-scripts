@@ -4,3 +4,5 @@
 *.ova
 *.pkg
 *.vbox-extpack
+*.tar
+*.tar.gz
