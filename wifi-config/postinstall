@@ -1,11 +1,11 @@
 #!/bin/bash
 
-ssid="Teachers"
+ssid=""
 
 #possible values here are OPEN, WPA, WPAE (WPA Enterprise), WPA2, WPAE2, WEP or 8021XWEP
 securitytype="WPA2"
 
-password="\\wIZqzv\\hv/poePtjkUA"
+password=""
 
 
 device=$(networksetup -listallhardwareports | grep -E '(Wi-Fi|AirPort)' -A 1 | grep -o en.)
