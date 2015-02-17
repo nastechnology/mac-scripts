@@ -9,12 +9,12 @@ if [ -z "$1" ]; then
 elif [ -z "$2" ]; then
   echo "Please provide an image name!"
   exit 1
-elif [ ! -d "/Volumes/Macintosh HD 1" ]; then
+elif [ ! -d "/Volumes/Macintosh HD" ]; then
   echo "Uh Oh, MacBook not found! Check thunderbolt connection and make sure it is in target disk mode"
   exit 1
 fi
 
-hdiutil create -srcfolder /Volumes/Macintosh\ HD\ 1/ ${EXT}/${IMGNAME}.dmg
+hdiutil create -srcfolder /Volumes/Macintosh\ HD/ ${EXT}/${IMGNAME}.dmg
 
 while [[ `ps aux | grep -v grep | grep -c 'hdiutil create -srcfolder'` -eq "1" ]]; do
   sleep 1
