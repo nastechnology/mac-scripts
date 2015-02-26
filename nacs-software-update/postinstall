@@ -1,0 +1,5 @@
+#!/bin/bash
+
+/usr/bin/defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://xserve.nacswildcats.org:8088/index.sucatalog
+
+exit 0

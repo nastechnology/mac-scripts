@@ -2,7 +2,7 @@
 
 SRC=$1
 #DST=Macintosh\ HD\ 1
-DST=Macintosh\ HD
+DST=Macintosh\ HD\ 1
 
 if [ -z "$1" ]; then
 echo "No arguments supplied - Please provide an image name i.e. ./restoreImage.sh ~/Documents/MacBook_image.dmg"
